@@ -21,6 +21,8 @@ python main.py --help
 ```bash
 python main.py add "[Task]" "[Category]"
 ```
+* When you add a task the field `Task Added At` catch current date automatically.
+
 
 ![add.PNG](/assets/add.PNG)
 
@@ -35,6 +37,8 @@ python main.py update [index] "[Task]" "[Category]"
 ```bash
 python main.py complete [index]
 ```
+
+* When you complete a task the field `Task Completed At` catch current date automatically.
 
 ![complete.PNG](/assets/complete.PNG)
 
